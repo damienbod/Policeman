@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Policeman", "Policeman\Policeman.csproj", "{84746190-8F11-4D70-A264-37ABF4449F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Policeman.Tests", "Policeman.Tests\Policeman.Tests.csproj", "{10A13F27-BD8E-45D6-9F37-43695DA8142E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicemanConsole", "PolicemanConsole\PolicemanConsole.csproj", "{AF388981-55FD-4BF4-AC8A-ABC77A44DDB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84746190-8F11-4D70-A264-37ABF4449F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84746190-8F11-4D70-A264-37ABF4449F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84746190-8F11-4D70-A264-37ABF4449F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84746190-8F11-4D70-A264-37ABF4449F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A13F27-BD8E-45D6-9F37-43695DA8142E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A13F27-BD8E-45D6-9F37-43695DA8142E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A13F27-BD8E-45D6-9F37-43695DA8142E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A13F27-BD8E-45D6-9F37-43695DA8142E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF388981-55FD-4BF4-AC8A-ABC77A44DDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF388981-55FD-4BF4-AC8A-ABC77A44DDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF388981-55FD-4BF4-AC8A-ABC77A44DDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF388981-55FD-4BF4-AC8A-ABC77A44DDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
