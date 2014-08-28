@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Policeman.Guard</id>
-    <title>Self Hosted Web Api using Owin and Unity</title>
-    <version>1.0.0</version>
+    <title>Policeman.Guard</title>
+    <version>1.0.1</version>
     <authors>damienbod</authors>
     <owners>damienbod</owners>
     <projectUrl>http://damienbod.wordpress.com</projectUrl>
