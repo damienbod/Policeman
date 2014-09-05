@@ -5,7 +5,7 @@ namespace Policeman
 {
     public static class Guard
     {
-		[DebuggerStepThrough]
+	[DebuggerStepThrough]
         public static void Requires<TExceptionArgument>(string message, bool isTrue) where TExceptionArgument : Exception
         {
             if (!isTrue )
@@ -20,7 +20,7 @@ namespace Policeman
             }
         }
 
-		[DebuggerStepThrough]
+	[DebuggerStepThrough]
         public static void Requires<TExceptionArgument>(bool isTrue) where TExceptionArgument : Exception
         {
             if (!isTrue)
@@ -35,20 +35,20 @@ namespace Policeman
             }
         }
 
-		[DebuggerStepThrough]
+	[DebuggerStepThrough]
         public static void ArgumentNotNull([ValidatedNotNullAttribute]object argumentValue, string argumentName)
         {
             if (argumentValue == null) throw new ArgumentNullException(argumentName);
         }
 
-		[DebuggerStepThrough]
+	[DebuggerStepThrough]
         public static void ArgumentNotNullOrEmpty(string argumentValue, string argumentName)
         {
             if (argumentValue == null) throw new ArgumentNullException(argumentName);
             if (argumentValue.Length == 0) throw new ArgumentException("Argument must not be empty", argumentName);
         }
 
-		[DebuggerStepThrough]
+	[DebuggerStepThrough]
         public static void ArgumentGreaterOrEqualThan<T>(T lowerValue, T argumentValue, string argumentName) where T : struct, IComparable
         {
             if (argumentValue.CompareTo(lowerValue) < 0)
@@ -57,7 +57,7 @@ namespace Policeman
             }
         }
 
-		[DebuggerStepThrough]
+	[DebuggerStepThrough]
         public static void ArgumentLowerOrEqualThan<T>(T higherValue, T argumentValue, string argumentName) where T : struct, IComparable
         {
             if (argumentValue.CompareTo(higherValue) > 0)
